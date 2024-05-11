@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.image-container {
+    width: 50vw;
+    height: 80vh;
+    margin: 10vh auto;
+    padding: 10rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    border: none;
+    color: white;
+    padding: 1rem 4.7rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 0.1rem
+}
+
+button:hover {
+    background: linear-gradient(to right, #da1b60, #ff8a00);
+}
